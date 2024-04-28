@@ -1,80 +1,29 @@
 # candidate-exercise-react
 
-## 🚀 Welcome to the React & React Native Task Management Challenge! 📝
+## 🚀 Task Management App 📝
+This project involves a task management application with separate client and server components.
 
-Congratulations on reaching this exciting stage of the interview process! We're eager to witness your React and React Native prowess in action. Let's dive into the challenge!
+### Features
+Client: Built with React
+Server: Developed with Node.js with express framwork using mock files for user and   task management (no database)
 
-### The Challenge: Build a Task Management Application
+#### Setup:
+1. Clone both the client and server repositories into the same folder.
+2. Navigate into each directory and install dependencies:
+    For client: Run yarn install
+    For server: Run npm start
+3. Start both applications:
+    For client: Run yarn start
+    For server: Run npm start
+4. Once launched, the client will be accessible at http://localhost:3000 and the server at http://localhost:3001.
 
-Picture yourself as the architect of an innovative task management tool. Your task, should you accept it, is to craft a cutting-edge application that empowers users to organize their tasks seamlessly.
+#### Project Overview:
+The application provides a comprehensive task management solution, allowing users to perform various actions related to task handling.
 
-#### Key Features to Showcase Your Skills:
+### Authentication and Authorization:
+1. **Sign In/Sign Up**:Implemented for authentication and authorization flow..
+2. **Authorization**:Authorized users can perform create, delete, update, and view tasks.
 
-1. **React & React Native Mastery**: Leverage your expertise in React and React Native to build a robust, efficient application.
-2. **Task CRUD Operations**: Flex your coding muscles by enabling users to Create, Read, Update, and Delete tasks effortlessly.
-3. **User Authentication**: Demonstrate your understanding of authentication concepts by implementing a secure sign-up and login system.
-4. **Task Sorting and Filtering**: Showcase your React skills by creating intuitive sorting and filtering options for users.
-5. **Responsive Design**: Highlight your React Native skills with a flawlessly responsive design that dazzles on all devices.
-
-#### Scoring Criteria:
-
-- **React & React Native Proficiency**: 30 points
-- **Task CRUD Operations**: 20 points
-- **User Authentication**: 15 points
-- **Task Sorting and Filtering**: 15 points
-- **Responsive Design**: 20 points
-
-### Submission Guidelines:
-
-1. **GitHub Repository**: Fork this repository [insert GitHub link] to embark on your coding journey.
-2. **Readme**: Provide comprehensive instructions for running your project locally, showcasing your communication skills.
-3. **Code Quality**: Write elegant, well-documented code to earn those extra brownie points.
-4. **Bonus Points**: Blow us away with your creativity, attention to detail, and problem-solving prowess.
-
-### Deadline:
-
-The deadline for submission is [insert deadline here]. Remember, it's not just about finishing first; it's about crafting a masterpiece!
-
-### Good Luck, React & React Native Ninja! 🍀
-
-We believe in you! If you have any questions or need guidance along the way, don't hesitate to reach out. Happy coding!
-## 🚀 Welcome to the React & React Native Task Management Challenge! 📝
-
-Congratulations on reaching this exciting stage of the interview process! We're eager to witness your React and React Native prowess in action. Let's dive into the challenge!
-
-### The Challenge: Build a Task Management Application
-
-Picture yourself as the architect of an innovative task management tool. Your task, should you accept it, is to craft a cutting-edge application that empowers users to organize their tasks seamlessly.
-
-#### Key Features to Showcase Your Skills:
-
-1. **React & React Native Mastery**: Leverage your expertise in React and React Native to build a robust, efficient application.
-2. **Task CRUD Operations**: Flex your coding muscles by enabling users to Create, Read, Update, and Delete tasks effortlessly.
-3. **User Authentication**: Demonstrate your understanding of authentication concepts by implementing a secure sign-up and login system.
-4. **Task Sorting and Filtering**: Showcase your React skills by creating intuitive sorting and filtering options for users.
-5. **Responsive Design**: Highlight your React Native skills with a flawlessly responsive design that dazzles on all devices.
-
-#### Scoring Criteria:
-
-- **React & React Native Proficiency**: 30 points
-- **Task CRUD Operations**: 20 points
-- **User Authentication**: 15 points
-- **Task Sorting and Filtering**: 15 points
-- **Responsive Design**: 20 points
-- **Documentation**: 20 points
-
-### Submission Guidelines:
-
-1. **GitHub Repository**: Fork this repository [cprime-talent/candidate-exercise-react](https://github.com/cprime-talent/candidate-exercise-react) to embark on your coding journey.
-2. **Readme**: Provide comprehensive instructions for running your project locally, showcasing your communication skills.
-3. **Code Quality**: Write elegant, well-documented code to earn those extra brownie points.
-4. **Bonus Points**: Blow us away with your creativity, attention to detail, and problem-solving prowess.
-
-### Deadline:
-
-The deadline for submission is 3 days from creating your fork. Remember, it's not just about finishing first; it's about crafting a masterpiece!
-
-### Good Luck, React & React Native Ninja! 🍀
-
-We believe in you! If you have any questions or need guidance along the way, don't hesitate to reach out. Happy coding!
-
+### Task Management:
+1. **Task Operations**:Users can create, delete, update, and view tasks.
+2. **Status Change**:Task status can be easily changed using draggable options.
